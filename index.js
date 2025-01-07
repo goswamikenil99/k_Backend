@@ -20,6 +20,7 @@ const allowedOrigins = [
   "http://localhost:5173", // For localhost
   "http://202.131.126.201:5173", // For local network
   "https://guni-ai-fww8.onrender.com",
+  "https://guni-ai.vercel.app",
 ];
 
 app.use(

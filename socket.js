@@ -10,7 +10,7 @@ const genAI = new GoogleGenerativeAI("AIzaSyCW8U9H4sHsPuP5fHtX90Em25o46q7N0_Q");
 const setupSocket = (server) => {
   const io = new SocketIOServer(server, {
     cors: {
-      origin: ["http://localhost:5173", "http://202.131.126.201:5173" ,  "https://guni-ai-fww8.onrender.com" ,],
+      origin: ["http://localhost:5173", "http://202.131.126.201:5173" ,  "https://guni-ai-fww8.onrender.com" ,"https://guni-ai.vercel.app",],
       methods: ["GET", "POST"],
       credentials: true,
     },
